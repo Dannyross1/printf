@@ -3,14 +3,14 @@
 /************************* WRITE HANDLE *************************/
 /**
  * handle_write_char - Prints a string
- * @c: char types
+ * @c: characters types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
- * @width: get width
+ * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: Number of characters printed.
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -48,14 +48,14 @@ int handle_write_char(char c, char buffer[],
 /**
  * write_number - Prints a string
  * @is_negative: Lista of arguments
- * @ind: char types
+ * @ind: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: Number of characters printed.
  */
 int write_number(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size)
@@ -83,7 +83,7 @@ int write_number(int is_negative, int ind, char buffer[],
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
- * @width: width.
+ * @width: width
  * @prec: Precision specifier
  * @length: Number length
  * @padd: Pading char
@@ -200,7 +200,7 @@ int write_unsgnd(int is_negative, int ind,
  * @buffer: Arrays of chars
  * @ind: Index at which the number starts in the buffer
  * @length: Length of number
- * @width: Wwidth specifier
+ * @width: Width specifier
  * @flags: Flags specifier
  * @padd: Char representing the padding
  * @extra_c: Char representing extra char

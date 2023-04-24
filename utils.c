@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * is_printable - Evaluates if a char is printable
- * @c: Char to be evaluated.
+ * is_printable - Evaluates if a character is printable
+ * @c: Character to be evaluated.
  *
  * Return: 1 if c is printable, 0 otherwise
  */
@@ -15,10 +15,10 @@ int is_printable(char c)
 }
 
 /**
- * append_hexa_code - Append ascci in hexadecimal code to buffer.
- * @buffer: Array of chars.
+ * append_hexa_code - Append ascci in hexadecimal code to buffer
+ * @buffer: Array of characters.
  * @i: Index at which to start appending.
- * @ascii_code: ASSCI CODE.
+ * @ascii_code: ASCII CODE.
  * Return: Always 3
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
@@ -38,8 +38,8 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 }
 
 /**
- * is_digit - Verifies if a char is a digit.
- * @c: Char to be evaluated
+ * is_digit - Verifies if a char is a digit
+ * @c: Characters to be evaluated
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
@@ -54,7 +54,7 @@ int is_digit(char c)
 /**
  * convert_size_number - Casts a number to the specified size
  * @num: Number to be casted.
- * @size: Number indicating the types to be casted.
+ * @size: Number indicating the type to be casted.
  *
  * Return: Casted value of num.
  */
@@ -70,10 +70,10 @@ long int convert_size_number(long int num, int size)
 
 /**
  * convert_size_unsgnd - Casts a number to the specified size
- * @num: Number to be casted.
- * @size: Number indicating the types to be casted
+ * @num: Number to be casted
+ * @size: Number indicating the type to be casted
  *
- * Return: Casted value of num.
+ * Return: Casted value of num
  */
 long int convert_size_unsgnd(unsigned long int num, int size)
 {
