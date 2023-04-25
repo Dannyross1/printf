@@ -1,1 +1,1 @@
-Team Project done by Ukoh Daniel and Adesuwa Irekpita
+Team Project done by Ukoh Daniel and Joan Irekpita
