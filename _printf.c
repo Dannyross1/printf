@@ -5,7 +5,7 @@ void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - Printf function to print in console
  * @format: array to print and check type
- * Return: count of character printed
+ * Return: count of char printed
  */
 int _printf(const char *format, ...)
 {
